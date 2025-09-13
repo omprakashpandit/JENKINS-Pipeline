@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-          //     sh "./Hello.sh"
-             bat "echo Hello World..!!!"
+                 bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "./Hello.sh"
+         //    bat "echo Hello World..!!!"
             }
         }
     }
